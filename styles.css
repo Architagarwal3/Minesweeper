@@ -1,0 +1,36 @@
+.box {
+  background-color: gray;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+div > div {
+  text-align: center;
+  line-height: 50px;
+}
+.square {
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  box-sizing: border-box;
+  height: 50px;
+  width: 50px;
+  background-color: grey;
+}
+.bombon {
+  background-color: brown;
+}
+
+.safe,
+.checked {
+  background-color: white;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+body {
+  background-color: black;
+}
