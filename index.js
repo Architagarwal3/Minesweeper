@@ -103,11 +103,11 @@ function checkNeighbour(a) {
 }
 function addFlag(a) {
   var y = 0;
-  if (flag < 20) {
     if (document.getElementById("" + a).innerText === "🚩") {
       document.getElementById("" + a).innerText = "";
       flag--;
     } else {
+      if (flag < 20) {
       document.getElementById("" + a).innerText = "🚩";
       flag++;
     }
